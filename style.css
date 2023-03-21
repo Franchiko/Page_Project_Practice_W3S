@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 18px;
+	padding: 0.8rem;
+	height: auto;
+}
+
+.navbar {
+	background-color: rgb(100, 100, 100);
+	color: snow;
+	text-align: left;
+	width: 100%;
+	max-width: 100%;
+	padding: 1rem;
+}
+
+li {
+	display: inline-flex;
+}
+
+li ul {
+	justify-content: center;
+	align-items: space-around;
+	padding: 1rem;
+}
+
+li ul:link {
+	background-color: rgb(49, 179, 49);
+}
+
+li ul:visited {
+	background-color: rgb(49, 179, 49);
+}
+
+li ul:hover {
+	background-color: black;
+}
+
+li ul:active {
+	background-color: rgb(49, 179, 49);
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+aside {
+	float: left;
+	width: 25%;
+}
+
+aside div {
+	margin: 0.7rem;
+	background-color: rgb(203, 208, 212);
+	color: black;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+aside div:link {
+	background-color: rgb(33, 127, 204);
+	color: white;
+}
+
+aside div:visited {
+	background-color: rgb(33, 127, 204);
+	color: white;
+}
+
+aside div:hover {
+	background-color: rgb(41, 39, 39);
+	color: white;
+}
+
+aside div:active {
+	background-color: rgb(96, 161, 214);
+	color: white;
+}
+
+section {
+	width: 75%;
+	float: right;
+	text-align: justify;
+	padding: 1rem 1rem 0rem 1rem;
+}
+
+h1 {
+	background-color: dodgerblue;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	border-radius: 5px;
+}
+
+h2 {
+	margin: 1.5rem 0rem;
+}
+
+footer {
+	background-color: rgb(39, 42, 44);
+	color: white;
+	text-align: center;
+	padding: 2rem;
+	clear: left;
+}
